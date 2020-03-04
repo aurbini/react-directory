@@ -2,8 +2,8 @@
   { 
     "id": "1", 
     "name":"John", 
-    "rold":"lawyer", 
-    "department": "law"
+    "role":"accountant", 
+    "department": "accounting"
   },
   {
     "id": "2",

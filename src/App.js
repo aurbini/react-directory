@@ -9,6 +9,12 @@ class App extends React.Component{
     data,
     search: ""
   }
+  resetFilterClick = event =>{
+    this.setState({
+      data: data
+    })
+  }
+
   handleButtonClick = event =>{
     const value = event.target.value;
     const name = event.target.name;
@@ -42,6 +48,7 @@ class App extends React.Component{
           value={this.state.search}
           handleInputChange={this.handleInputChange}
           handleFormSubmit={this.handleFormSubmit}
+          resetFilterClick={this.resetFilterClick}
         />
         <EmployeeTable
           employees={this.state.data}

@@ -15,6 +15,7 @@ const SearchForm = (props) => {
           placeholder="Role"
         />
         <button type="submit" onClick={props.handleFormSubmit}>Submit</button>
+        <button onClick={props.resetFilterClick}>Reset Filter</button>
       </form>
     </div>
    );
