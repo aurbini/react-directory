@@ -1,0 +1,38 @@
+[
+  { 
+    "id": "1", 
+    "name":"John", 
+    "rold":"lawyer", 
+    "department": "law"
+  },
+  {
+    "id": "2",
+    "name": "Steve",
+    "role": "accountant",
+    "department": "accounting"
+  },
+  {
+    "id": "3",
+    "name": "Sara",
+    "role": "singer",
+    "department": "music"
+  },
+  {
+    "id": "4",
+    "name": "Steph",
+    "role": "nurse",
+    "department": "health"
+  },
+  {
+    "id": "5",
+    "name": "Trish",
+    "role": "ceo",
+    "department": "board"
+  },
+  {
+      "id": "6",
+      "name": "Eric",
+      "role": "stocker",
+      "department": "warehouse"
+  }
+]
